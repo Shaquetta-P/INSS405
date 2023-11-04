@@ -1,0 +1,16 @@
+Height_ft = int(input('Enter Height Feet: '))
+Height_inch=int(input('Enter Height Inches: '))
+Weight =int(input('Enter Weight pounds'))
+Age= int(input('Enter Age: '))
+FirstName = input('Enter your First Name: ')
+Location = input(('Enter your State: '))
+
+Number1 = int(input('Enter 5'))
+Number2 = int(input('Enter 6'))
+Number3 = int(input('Enter 7'))
+Number4 = int(input('Enter 8'))
+Number5 = int(input('Enter 9'))
+sum=(Number1+Number2+Number3+Number4+Number5)
+print(sum)
+import statistics
+print(statistics.mean([Number1,Number2,Number3,Number4,Number5])
